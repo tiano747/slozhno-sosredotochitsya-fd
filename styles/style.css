@@ -180,7 +180,7 @@
 
 .text__shadow {
   text-decoration: none;
-  text-shadow: 2px 0px 0px var(--bg-accent-color);
+  text-shadow: 2px 2px 0px var(--bg-accent-color);
 }
 
 .wrapper__section {
@@ -275,7 +275,6 @@
   .header {
     grid-template-rows: 28% 27% 42.4%;
     min-block-size: 1024px;
-    block-size: 100vh;
   }
 
   .decorated-zone::after {
@@ -345,7 +344,7 @@
 
   .gallery_list {
     grid-template-columns: repeat(3, 1fr);
-    grid-template-rows: 192px 230px 318px;
+    grid-template-rows: auto;
     gap: 20px;
   }
 
@@ -370,7 +369,6 @@
 
   .footer {
     min-block-size: 1024px;
-    block-size: 100vh;
   }
 }
 
@@ -425,7 +423,7 @@
   }
 
   .gallery_list {
-    grid-template-rows: 260px 315px 433px;
+    grid-template-rows: auto;
   }
 
   .footer {
